@@ -1,0 +1,38 @@
+/* Import Google Fonts for custom font styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+.app-container {
+  background-color: #8e8ee2; /* Light background color */
+  background-image: url('/growth-economy-with-coins-concept.jpg'); /* Corrected image path */
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  font-family: 'Open Sans', Arial, sans-serif; /* Using a custom font */
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-family: 'Roboto', sans-serif; /* Using a custom font for headings */
+  font-size: 2.5em;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 12px;
+  width: 80%;
+  max-width: 300px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #27ae60;
+  font-family: 'Roboto', sans-serif; /* Consistent font for sub-headings */
+  font-size: 1.8em;
+}

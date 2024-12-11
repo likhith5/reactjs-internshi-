@@ -1,0 +1,86 @@
+nav{
+  padding:10px;
+  background-color: #121212;
+  .nav{
+    border-radius: 5px;
+    .navItems{
+      height: 50px;
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      font-size: 1.2rem;
+      padding-left: 10px;
+      overflow: hidden;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: black;
+    }
+    .navItems:hover{
+      background: rgb(98, 97, 97);
+    }
+  }
+  .library{
+    background-color: #121212;
+    border-radius: 5px;
+    margin-top: 10px;
+    .library_box_icon{
+      padding-left: 10px !important;
+    }
+    .library_box{
+      height: 50px;
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      font-size: 1.2rem;
+      background-color: black;
+      .search_library{
+        height: 30px;
+        background-color: rgb(193, 193, 193);
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        width: 200px;
+        padding-left: 10px;
+      }
+    }
+    .song_liked_box{
+      margin-top: 20px;
+      height: 60px;
+      display: flex;
+      column-gap: 10px;
+      background-color: black;
+      padding: 10px;
+      cursor: pointer;
+      .pin{
+        transform: rotate(40deg);
+        font-size: 20px;
+      }
+      .liked_image{
+        background-image: linear-gradient(#5525F0, #B8DCDA);
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+      }
+      .liked_details{
+        margin-top: 5px;
+        p{
+          margin: 0;
+          padding-left: 5px;
+        }
+        .pin_box{
+          display: flex;
+          align-items: center;
+          .pin{
+            margin-top: 5px;
+          }
+          .song_count{
+            padding-left: 5px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/* HomePage.css */
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+  }
+  
+  .homepage-message {
+    font-size: 24px;
+    color: #00796b;
+    font-weight: bold;
+  }
+  

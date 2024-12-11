@@ -1,0 +1,128 @@
+/* Background and Font Styling S*/
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('D:/assignments/calculator app/calculator-app/public/annie-spratt-r_m-JKJVto0-unsplash.jpg'); /* You can replace this with your own image URL */
+  background-size: cover;
+  background-position: center;
+  color: #0c0c0bfc;
+}
+
+/* Calculator Container */
+.calculator {
+  max-width: 320px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(165, 162, 144, 0.362); /* Semi-transparent dark background */
+  box-shadow: 0 8px 16px rgba(210, 231, 241, 0.3);
+  text-align: center;
+}
+
+/* Display */
+.display {
+  height: 60px;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 8px;
+  background-color: #222;
+  color: #0abde3;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-weight: bold;
+}
+
+/* Mode Toggle */
+.mode-toggle button {
+  background-color: #0abde3;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mode-toggle button:hover {
+  background-color: #078ab5;
+}
+
+/* Basic Buttons */
+.buttons, .scientific-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+button:active {
+  background-color: #555;
+}
+
+/* Scientific Buttons */
+.scientific-buttons {
+  margin-top: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+button:nth-child(1) {
+  background-color: #e74c3c;
+  color: white;
+}
+
+button:nth-child(1):hover {
+  background-color: #c0392b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

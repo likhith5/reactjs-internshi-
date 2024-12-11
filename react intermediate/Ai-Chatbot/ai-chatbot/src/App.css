@@ -1,0 +1,145 @@
+/* Custom Scrollbar Styles */
+.scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #93C5FD;
+    border-radius: 3px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background-color: #60A5FA;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .hide-scrollbar {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+  /* Add the background image and gradient */
+body, html {
+  height: 100%;
+}
+
+.fixed {
+  background-image: url('./assets/9117392.jpg'); /* Correct relative path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+/* Optional gradient style */
+.bg-gradient {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+  color: #8ed0e2;
+}
+
+/* Example font styles */
+h1, h2, h3, p {
+  font-family: 'Arial'
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600&display=swap');
+
+/* General body styling */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f4f8; /* Light gray background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #4a90e2; /* Blue color for the header */
+}
+
+/* Chat container styling */
+.fixed {
+  background: linear-gradient(to right, #6a82fb, #fc5c7d); /* Gradient background */
+}
+
+.bg-gradient-to-r {
+  background: #e3f2fd; /* Light gradient background */
+}
+
+/* Chat history box */
+.bg-white {
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat bubbles */
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+/* Textarea styling */
+textarea {
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #f9f9f9;
+  color: #333;
+  box-sizing: border-box;
+  resize: none;
+}
+
+button {
+  background-color: #4a90e2; /* Button color */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Typing animation */
+.animate-pulse {
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}

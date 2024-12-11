@@ -1,0 +1,69 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif; /* Set default font */
+  margin: 0;
+  padding: 0;
+  background-color: #b3b3e4; /* Light background color */
+}
+
+.App {
+  text-align: left;
+  padding: 40px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif; /* Custom font for header */
+  color: rgb(18, 12, 12);
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Background Image for the entire App */
+.App {
+  background-image: url('D:/assignments/multisetup-from wizard/multi-step-form/public/istockphoto-1359400091-1024x1024.jpg'); /* Change the image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #1d1b1b; /* Ensure text is readable on the background */
+  padding: 60px;
+  border-radius: 15px;
+}
+
+/* Styling for MultiStepForm container */
+.multi-step-form {
+  background-color: rgba(245, 248, 249, 0.9); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: rgb(15, 12, 12);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

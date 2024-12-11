@@ -1,0 +1,37 @@
+
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.post {
+  border: 1px solid #c9e5f3;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.App {
+  background-image: url('D:/assignments/blogwebsite/blog-website/public/istockphoto-180828383-1024x1024.jpg'); /* or use a URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+}

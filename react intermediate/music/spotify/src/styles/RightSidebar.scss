@@ -1,0 +1,93 @@
+.right_sidebar{
+  position: relative;
+  padding: 10px;
+  background-color: #121212;
+  .track_image{
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  h2{
+    margin-bottom: 20px;
+  }
+}
+
+/* Custom styles for the audio player */
+.spotify-audio {
+  width: 100%;
+  background-color: #333;
+  color: black;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the audio controls */
+.spotify-audio::-webkit-media-controls-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  border: none;
+}
+
+.spotify-audio::-webkit-media-controls-play-button {
+  background-color: #1db954; /* Spotify green */
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin: 0 10px;
+}
+
+.spotify-audio::-webkit-media-controls-play-button:hover {
+  background-color: #169c4f; /* Darker green on hover */
+}
+
+.spotify-audio::-webkit-media-controls-current-time-display,
+.spotify-audio::-webkit-media-controls-time-remaining-display {
+  color: black;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+/* Style the volume control */
+.spotify-audio::-webkit-media-controls-volume-slider {
+  width: 100px;
+  height: 4px;
+  background-color: #666;
+  border-radius: 2px;
+  margin: 0 10px;
+}
+
+.spotify-audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb {
+  background-color: #1db954; /* Spotify green */
+  border: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
+
+/* Style the progress bar */
+.spotify-audio::-webkit-media-controls-progress-bar {
+  background-color: transparent;
+}
+
+.spotify-audio::-webkit-media-controls-progress-bar::-webkit-media-controls-playback-progress-bar {
+  background-color: #1db954; /* Spotify green */
+}
+.input-range{
+  width: 100%;
+}
+.song_details{
+  background-color: #333;
+  padding:10px;
+  border-radius: 5px;
+  .song_detail_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Light background for the entire app */
+  }
+  
+  /* Hide scrollbar styles for chat container */
+  .hide-scrollbar {
+    scrollbar-width: none; /* For Firefox */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+  
+  /* Chat container styles */
+  .fixed {
+    position: fixed;
+    inset: 0;
+  }
+  
+  /* Input textarea styles */
+  textarea {
+    border: 1px solid #d1d5db; /* Light gray border */
+  }
+  
+  textarea:focus {
+    border-color: #3b82f6; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Button styles */
+  button {
+    transition: background-color 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #3b82f6; /* Keep the button blue even when disabled */
+    cursor: not-allowed;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .fixed {
+      padding: 20px; /* Extra padding on smaller screens */
+    }
+  
+    textarea {
+      font-size: 14px; /* Smaller font size for input on mobile */
+    }
+  }
+  
